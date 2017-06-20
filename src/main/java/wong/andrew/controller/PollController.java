@@ -1,6 +1,7 @@
 package wong.andrew.controller;
 
 import org.springframework.web.bind.annotation.RestController;
+import wong.andrew.repository.PollRepository;
 
 import javax.inject.Inject;
 
@@ -11,6 +12,6 @@ import javax.inject.Inject;
 public class PollController {
 
     @Inject
-    
+    private PollRepository pollRepository;
 
 }
