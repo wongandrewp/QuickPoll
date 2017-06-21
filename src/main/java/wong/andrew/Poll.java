@@ -22,6 +22,10 @@ public class Poll {
     @OrderBy
     private Set<Option> options;
 
+    public Poll(String question, Set<Option> options){
+        this.question = question;
+        this.options = options;
+    }
     public long getId() {
         return id;
     }

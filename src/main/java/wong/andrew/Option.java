@@ -19,7 +19,12 @@ public class Option {
         return id;
     }
 
+    public Option(String value) {
+        this.value = value;
+    }
+
     public void setId(long id) {
+
         this.id = id;
     }
 
